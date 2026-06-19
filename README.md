@@ -16,7 +16,7 @@ An intelligent research support system using Retrieval-Augmented Generation (RAG
 
 ## 📦 Installation
 1. Clone the repository:
-   `git clone https://github.com/yourusername/medical-research-assistant.git`
+   `git clone https://github.com/Varna12334/medical-research-assistant.git`
 2. Install dependencies:
    `pip install -r requirements.txt`
 3. Set your environment variables in a `.env` file:
