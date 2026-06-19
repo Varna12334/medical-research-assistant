@@ -1,1 +1,11 @@
+import streamlit as st
+# Import your main logic here
 
+st.title("Multi-Agent Medical Research Assistant")
+query = st.text_input("Enter your medical research query:")
+
+if st.button("Generate Report"):
+    with st.spinner('Agents are working...'):
+        # Call your crew logic here
+        st.success("Report Generated!")
+        st.write("Result output goes here.")
